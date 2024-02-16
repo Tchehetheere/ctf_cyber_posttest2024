@@ -1,0 +1,78 @@
+/* Basic styling for layout and elements */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.challenge-info, .challenge-content, .feedback {
+  margin-bottom: 20px;
+}
+
+.chall {
+  margin-bottom: 75px;
+}
+
+.challenge-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.challenge-form label {
+  margin-bottom: 5px;
+}
+
+.challenge-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.challenge-form button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.feedback {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+}
